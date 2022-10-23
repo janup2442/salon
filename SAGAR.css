@@ -22,22 +22,48 @@ a{
 }
 
 .tags:hover{
-    color: rgb(217, 231, 243);
+    color: rgb(20, 255, 122);
 }
 
+.btn-ani
+{
+  background-color: #023403; /* Green */
+  margin-left: 700px;
+  margin-top: 100px;
+  border: none;
+  color: rgb(247, 247, 247);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 25px;
+  border-bottom: 3px solid rgb(13, 225, 27);
+  mix-blend-mode:hard-light;
+}
+
+.btn-ani:hover{
+    padding: 15px 25px 15px;
+    transition: 0.5s ease;
+    box-shadow: 0 8px 5px rgba(255, 255, 255, 0.462);
+
+}
 .btn{
+    color: white;
     margin-left: 106px;
     height: 0.8cm;
     width: 5cm;
     font-size: 16px ;
     font-weight: 700;
-    background-color: rgb(109 146 61);
-    border: double rgb(47 63 29) 2px;
-    border-radius: 5px;
+    background-color: rgb(38, 62, 6);
+    border: double rgb(116, 118, 113) 2px;
+    border-radius: 15px;
+    box-shadow: 5px;
 
 }
 .btn:hover{
-    background-color: rgb(140 173 97) ;
+    background-color: rgb(10, 176, 82) ;
 }
 .title{
     font-family: 'Lobster', cursive;
