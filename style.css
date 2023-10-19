@@ -1,0 +1,102 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+    font-family: sans-serif;
+}
+body{
+    background-image: url('salonPic.jfif') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.symbol{
+    color: aliceblue;
+    padding: 35px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    color: aliceblue;
+    display: inline-block;
+    margin:2% auto;
+    position:sticky;
+    top:2px;
+}
+#download{
+    position: absolute;
+    top:3%;
+    right:2%;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius:5px;
+    padding:6px 7px;
+    border:2px solid #5bb318;
+    transition: all 0.2s ease-in-out;
+}
+.tags{
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius:5px;
+    padding:6px 7px;
+    transition: all 0.2s ease-in-out;
+}
+.tags:hover{
+    /* border:none; */
+    color:white;
+    background-color: #2b7a0b;
+}
+#download:hover{
+    background-color:#5bb318;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+.title{
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 110px;
+    margin: auto;
+    letter-spacing:7px;
+}
+.tagline{
+    font-family: 'Gorditas', cursive;
+    word-spacing:7px;
+    color: #eaf3d5;
+    display:flex;
+    margin:auto;
+    text-align: center;
+    font-size: 31px;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#getStart{
+    border:2px solid #2b7a0b;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.678);
+    font-family: 'Gorditas', cursive;
+    font-size:2rem;
+    position:absolute;
+    bottom:15vh;
+    border-radius:10px;
+    padding:10px;
+    margin-top: 15%;
+    background-color:#2b7a0b;
+    transition: all 0.3s ease-in-out;
+}
+#getStart:hover{
+    background-color:whitesmoke;
+    color: #2b7a0b;
+}
